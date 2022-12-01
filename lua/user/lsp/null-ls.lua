@@ -12,12 +12,12 @@ null_ls.setup({
 	debug = false,
 	sources = {
 		formatting.stylua,
-		-- formatting.autopep8,
-		-- formatting.blue,
-		formatting.yapf,
-		formatting.isort,
+		formatting.yapf, -- format python code.
+		formatting.isort, -- sort out python import ...
 		formatting.beautysh,
+		formatting.dprint,
 		diagnostics.flake8,
 		diagnostics.shellcheck,
+		diagnostics.markdownlint,
 	},
 })
