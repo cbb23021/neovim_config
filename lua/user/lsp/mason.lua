@@ -7,6 +7,8 @@ local servers = {
 	-- "bashls",
 	"jsonls",
 	-- "yamlls",
+	"marksman",
+	"taplo",
 }
 
 local settings = {

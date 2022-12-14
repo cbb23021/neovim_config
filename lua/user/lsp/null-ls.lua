@@ -14,10 +14,12 @@ null_ls.setup({
 		formatting.stylua,
 		formatting.yapf, -- format python code.
 		formatting.isort, -- sort out python import ...
-		formatting.beautysh,
-		formatting.dprint,
+		formatting.shfmt,
+		formatting.jq,
+		formatting.markdownlint,
+		formatting.taplo,
 		diagnostics.flake8,
+		diagnostics.alex,
 		diagnostics.shellcheck,
-		diagnostics.markdownlint,
 	},
 })
