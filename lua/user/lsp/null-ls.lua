@@ -14,6 +14,7 @@ null_ls.setup({
 		formatting.stylua,
 		formatting.yapf, -- format python code.
 		formatting.isort, -- sort out python import ...
+		formatting.autopep8,
 		formatting.shfmt,
 		formatting.jq,
 		formatting.markdownlint,
